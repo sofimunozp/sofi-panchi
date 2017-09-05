@@ -1,14 +1,19 @@
 body{
   line-height: 1.5;
   font-size: 100%;
-  font-family: 'PT Serif', serif;
+  /*font-family: 'PT Serif', serif;*/
+  font-family: Georgia, serif;
   font-weight:400;
-  color:#666;
+  color:#f0f;
+  background-color: #fff;
+  background-image: url('http://4.bp.blogspot.com/--m4RGNzyJxk/VjgO1Z2cY3I/AAAAAAAAses/XgL7x5A5uQM/s1600/estrellas.gif');
+  background-position: right;top: auto;
+
 }
 
-a{color:#000; text-decoration: none; border-bottom:1px dotted #ccc;}
+a{color:#fff; text-decoration: none; border-bottom:1px dotted #ccc;}
 
-a:hover{color:#f00; border-bottom:1px dotted #f00;}
+a:hover{color:#fff; border-bottom:1px dotted #fff;}
 
 :hover{transition: 0.5s ease all;}
 
@@ -26,8 +31,8 @@ abbr{text-decoration: none; cursor: help;}
 }
 
 .contenedor img{width: 100%; height:auto;}
-strong,b,abbr{font-weight: 700; color:#444}
-h1,h2,h3,h4,h5,h6{font-weight: 800; font-family: 'Open Sans', sans-serif; color:#000;}
+strong,b,abbr{font-weight: 700; color:#fff}
+h1,h2,h3,h4,h5,h6{font-weight: 800; font-family: 'Open Sans', sans-serif; color:#fff;}
 p,h6{font-size:1em; line-height: 1.5; margin-top:1em;}
 h5{font-size:1.2em; line-height: 1.8; margin-top:1em;}
 h4{font-size:1.3em; line-height: 1.5; margin-top:2em;}
@@ -50,10 +55,10 @@ figure figcaption{padding:0.25em; font-size:80%; color:#444;}
 
 code{font-family: 'Source Code Pro', monospace; font-weight: 500; font-size:1.05em;}
 
-code span{color:#000;}
+code span{color:#fff;}
 
 pre code{font-weight: 300; background:#333; color: #fff; padding:0.2em 0.4em; border-radius: 4px; font-size:0.95em;}
 
-pre code span{color:#ff9;}
+pre code span{color:#fff;}
 
 button{font-size:1em;}
